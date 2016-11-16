@@ -3,13 +3,16 @@ Vessel segmentation from fundus images
 * Contains matlab algorithms for blood vessel segmentation from fundus images.
 * Three methods based on 
 	- Scale space theory
+
 		Apply gaussian filters to simulate different 'scales' of viewing
 		and combining edges which appear across different scales.
 
 	- matched filter response 
+	
 		Approximating the blood vessel profile by a gaussian function.
 
 	- Motion blurring (A new method for vessel segmentation)
+	
 		Averaging an image using motion blurring and subtracting the averaged image from the original image.
 
 Running
