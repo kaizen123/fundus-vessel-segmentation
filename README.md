@@ -17,7 +17,17 @@ Vessel segmentation from fundus images
 		Averaging an image using motion blurring and subtracting the averaged image from the original image.
 
 * This was written as part of my job as a Research Assistant at PES-CPR. 
-If you find this useful in your research please cite - http://ieeexplore.ieee.org/abstract/document/7911975/
+If you find this useful in your research please cite - 
+```
+  @inproceedings{prakash2016comparison,
+  title={Comparison of algorithms for segmentation of blood vessels in fundus images},
+  author={Prakash, Tejaswi D and Rajashekar, Deepthi and Srinivasa, Gowri},
+  booktitle={Applied and Theoretical Computing and Communication Technology (iCATccT), 2016 2nd International Conference on},
+  pages={114--118},
+  year={2016},
+  organization={IEEE}
+}
+```
 
 Running
 -------
