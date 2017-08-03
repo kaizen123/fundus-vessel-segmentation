@@ -1,5 +1,6 @@
 Vessel segmentation from fundus images
 ======================================
+
 * Contains matlab algorithms for blood vessel segmentation from fundus images.
 * Three methods based on 
 	- Scale space theory
@@ -15,8 +16,12 @@ Vessel segmentation from fundus images
 	
 		Averaging an image using motion blurring and subtracting the averaged image from the original image.
 
+* This was written as part of my job as a Research Assistant at PES-CPR. 
+If you find this useful in your research please cite - http://ieeexplore.ieee.org/abstract/document/7911975/
+
 Running
 -------
 * Run the vesselSegmentatioGUI.fig file using Matlab Guide. This provides a GUI with a few simple functions. 
 
 * NOTE: The gui has hardcoded parameters for the functions. So you might need to change these to get it working with fundus images other than the supplied one.
+
